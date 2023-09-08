@@ -1,6 +1,6 @@
 const greenColor = "#6ABF4B";
 const blueColor = "#3877EE";
-
+//кнопки с координатами согласно figma
 const buttons = [
   {
     text: "Выход",
