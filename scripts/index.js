@@ -1,5 +1,5 @@
-const openBtnImg = "./images/Vector11.svg"
-const closedBtnImg = "./images/Vector_11.svg"
+const openBtnImg = "images/active.svg";
+const closedBtnImg = "images/inactive.svg";
 const main = document.querySelector(".main");
 const buttonTemplate = document.querySelector("#button-template");
 const img = document.querySelector(".image");
@@ -37,6 +37,7 @@ function getButtonElement(buttons) {
   const buttonText = buttonElement.querySelector(".button__text");
   const buttonVector = buttonElement.querySelector(".button__vector");
   //добавляем каждому блоку свойства
+  buttonVector.src = closedBtnImg;
   buttonText.textContent = buttons.text;
   button.style.backgroundColor = buttons.color;
   button.style.border = buttons.color;
