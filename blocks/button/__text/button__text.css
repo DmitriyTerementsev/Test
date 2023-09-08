@@ -1,0 +1,13 @@
+.button__text {
+  visibility: hidden;
+  pointer-events: none;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  width: 56px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

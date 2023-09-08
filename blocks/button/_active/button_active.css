@@ -1,0 +1,11 @@
+.button_active {
+  position: absolute;
+  background-color: #6ABF4B;
+  width: 111px;
+  height: 41px;
+  z-index: 200;
+  border-radius: 40px;
+  opacity: 1;
+  border: 1px solid #6ABF4B;
+  cursor: pointer;
+}
